@@ -2,9 +2,9 @@ package main
 
 func Burbuja(s []int64) {
 	acept := true
-	var aux int64 = 0
+	var aux int64
 	for i, val := range s {
-		if aux == 0 {
+		if i == 0 {
 			aux = val
 		}
 		if aux != -100 {
@@ -24,5 +24,4 @@ func Burbuja(s []int64) {
 }
 
 func main() {
-
 }
